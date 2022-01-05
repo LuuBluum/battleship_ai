@@ -1,0 +1,10 @@
+Battleship game simulation coupled with competitive AI. Utilizes Monte Carlo simulation techniques to evaluate the most likely possible position on the board for a ship to be located.
+
+To configure, there are 4 relevant variables: ship_names, ship_lengths, map_length_x, and map_length_y.
+    Ship_names refers to the name of each ship; each name must be unique.
+    Ship_lengths refers to each ship's length, in the same ordering as their names.
+    Map_length_x and map_length_y refer to the board's x and y dimensions, respectively.
+
+Upon configuring those variables to the desired values (with existing placeholders for a standard Battleship game currently set), run make to build and compile.
+
+During gameplay, the user will be provided with a randomly-generated board (due to limitations of the console screen) and be requested to choose locations to shoot. The player and AI will alternate turns until one of them wins.
